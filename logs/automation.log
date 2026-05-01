@@ -1,0 +1,15 @@
+2026-05-01 15:54:32 INFO  stepDefinition.ui.Loginstep_stepdef_pilot - Login page verified successfully
+2026-05-01 20:14:50 INFO  stepDefinition.ui.Loginstep_stepdef_pilot - Verifying login page
+2026-05-01 20:14:51 INFO  stepDefinition.ui.Loginstep_stepdef_pilot - Login page verified successfully
+2026-05-01 20:26:36 INFO  stepDefinition.ui.Loginstep_stepdef_pilot - Verifying login page
+2026-05-01 20:26:36 INFO  stepDefinition.ui.Loginstep_stepdef_pilot - Login page verified successfully
+2026-05-01 20:41:37 INFO  stepDefinition.ui.Loginstep_stepdef_pilot - Verifying login page
+2026-05-01 20:41:37 INFO  stepDefinition.ui.Loginstep_stepdef_pilot - Login page verified successfully
+2026-05-01 23:08:02 INFO  stepDefinition.ui.Loginstep_stepdef_pilot - Verifying login page
+2026-05-01 23:08:02 INFO  commonUtil.WebDriverActions - Waiting for element to be visible: By.name: username
+2026-05-01 23:08:02 INFO  commonUtil.WebDriverActions - Element is visible: By.name: username
+2026-05-01 23:08:02 INFO  stepDefinition.ui.Loginstep_stepdef_pilot - Login page verified successfully
+2026-05-01 23:11:35 INFO  stepDefinition.ui.Loginstep_stepdef_pilot - Verifying login page
+2026-05-01 23:11:35 INFO  commonUtil.WebDriverActions - Waiting for element to be visible: By.name: username
+2026-05-01 23:11:35 INFO  commonUtil.WebDriverActions - Element is visible: By.name: username
+2026-05-01 23:11:35 INFO  stepDefinition.ui.Loginstep_stepdef_pilot - Login page verified successfully
