@@ -3,10 +3,13 @@ package commonUtil;
 import io.cucumber.java.After;
 import io.cucumber.java.Before;
 import io.cucumber.java.Scenario;
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import ui.common.configReader;
 import ui.config.DriverFactory;
 
+import java.io.IOException;
 import java.time.Duration;
 
 public class Hooks {
@@ -20,9 +23,6 @@ public class Hooks {
         // 2. Store driver & scenario
         Store.setDriver(driver);
         Store.setScenario(scenario);
-
-        // 3. Browser setup
-        driver.manage().window().maximize();
 
         // 4. Timeouts (safe defaults)
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
@@ -39,10 +39,18 @@ public class Hooks {
     }
 
     @After
-    public void tearDown(){
+    public void tearDown() throws IOException {
 
+        Scenario scenario = Store.getScenario();
         WebDriver driver = Store.getDriver();
 
+        if (scenario.isFailed()) {
+
+            byte[] screenshot = ScreenshotUtil.captureScreenshot(scenario.getName());
+
+            scenario.attach(screenshot, "image/png", scenario.getName());
+            scenario.log("Screenshot captured for failed scenario");
+        }
         if(driver != null){
             driver.quit();
         }

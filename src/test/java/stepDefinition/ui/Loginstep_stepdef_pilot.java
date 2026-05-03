@@ -16,7 +16,12 @@ public class Loginstep_stepdef_pilot {
     public void launch_application(){
         log.info("Verifying login page");
         boolean isDisplayed = loginPage.isLoginPageDisplayed();
+
         Assert.assertTrue(isDisplayed, "Login page is not displayed");
+
+        // 🔥 Force failure
+//        Assert.assertTrue(false, "Force failure to test screenshot");
+
         log.info("Login page verified successfully");
         Store.getScenario().log("Application launched successfully and login page is visible");
     }
