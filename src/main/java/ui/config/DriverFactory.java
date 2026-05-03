@@ -11,12 +11,12 @@ import ui.common.configReader;
 
 public class DriverFactory {
 
-    private static ThreadLocal<WebDriver> driver = new ThreadLocal<>();
+    private static final ThreadLocal<WebDriver> driver = new ThreadLocal<>();
 
     public static WebDriver initDriver(){
 
-        String browser = configReader.get("browser");
-        String headless = System.getProperty("headless", "false");
+        String browser = System.getProperty("browser", configReader.get("browser"));
+        String headless = System.getProperty("headless", configReader.get("headless"));
 
         switch (browser.toLowerCase()) {
 

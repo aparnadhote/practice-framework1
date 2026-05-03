@@ -41,3 +41,80 @@
 2026-05-02 21:45:26 INFO  commonUtil.WebDriverActions - Waiting for element to be visible: By.name: username
 2026-05-02 21:45:26 INFO  commonUtil.WebDriverActions - Element is visible: By.name: username
 2026-05-02 21:45:26 INFO  stepDefinition.ui.Loginstep_stepdef_pilot - Login page verified successfully
+2026-05-03 23:29:29 INFO  stepDefinition.ui.Loginstep_stepdef_pilot - Verifying login page
+2026-05-03 23:29:29 INFO  commonUtil.WebDriverActions - Waiting for element to be visible: By.name: username
+2026-05-03 23:29:29 INFO  commonUtil.WebDriverActions - Element is visible: By.name: username
+2026-05-03 23:36:38 INFO  stepDefinition.ui.Loginstep_stepdef_pilot - Verifying login page
+2026-05-03 23:36:38 INFO  commonUtil.WebDriverActions - Waiting for element to be visible: By.name: username
+2026-05-03 23:36:38 ERROR commonUtil.WebDriverActions - Element NOT visible within timeout: By.name: username
+2026-05-03 23:36:38 INFO  stepDefinition.ui.Loginstep_stepdef_pilot - Verifying login page
+2026-05-03 23:36:38 INFO  commonUtil.WebDriverActions - Waiting for element to be visible: By.name: username
+2026-05-03 23:36:38 ERROR commonUtil.WebDriverActions - Element NOT visible within timeout: By.name: username
+2026-05-03 23:36:38 INFO  stepDefinition.ui.Loginstep_stepdef_pilot - Verifying login page
+2026-05-03 23:36:38 INFO  commonUtil.WebDriverActions - Waiting for element to be visible: By.name: username
+2026-05-03 23:36:38 ERROR commonUtil.WebDriverActions - Element NOT visible within timeout: By.name: username
+2026-05-03 23:37:55 INFO  stepDefinition.ui.Loginstep_stepdef_pilot - Verifying login page
+2026-05-03 23:37:55 INFO  commonUtil.WebDriverActions - Waiting for element to be visible: By.name: username
+2026-05-03 23:37:55 INFO  commonUtil.WebDriverActions - Element is visible: By.name: username
+2026-05-03 23:37:59 INFO  stepDefinition.ui.Loginstep_stepdef_pilot - Verifying login page
+2026-05-03 23:37:59 INFO  commonUtil.WebDriverActions - Waiting for element to be visible: By.name: username
+2026-05-03 23:38:00 INFO  commonUtil.WebDriverActions - Element is visible: By.name: username
+2026-05-03 23:38:04 INFO  stepDefinition.ui.Loginstep_stepdef_pilot - Verifying login page
+2026-05-03 23:38:04 INFO  commonUtil.WebDriverActions - Waiting for element to be visible: By.name: username
+2026-05-03 23:38:04 INFO  commonUtil.WebDriverActions - Element is visible: By.name: username
+2026-05-03 23:40:54 INFO  stepDefinition.ui.Loginstep_stepdef_pilot - Verifying login page
+2026-05-03 23:40:54 INFO  commonUtil.WebDriverActions - Waiting for element to be visible: By.name: username
+2026-05-03 23:40:54 INFO  commonUtil.WebDriverActions - Element is visible: By.name: username
+2026-05-03 23:40:54 INFO  stepDefinition.ui.Loginstep_stepdef_pilot - Login page verified successfully
+2026-05-04 00:16:40 INFO  stepDefinition.ui.Loginstep_stepdef_pilot - Verifying login page
+2026-05-04 00:16:40 INFO  commonUtil.WebDriverActions - Waiting for element to be visible: By.name: username
+2026-05-04 00:16:41 INFO  commonUtil.WebDriverActions - Element is visible: By.name: username
+2026-05-04 00:16:41 INFO  stepDefinition.ui.Loginstep_stepdef_pilot - Login page verified successfully
+2026-05-04 00:32:00 INFO  stepDefinition.ui.Loginstep_stepdef_pilot - Verifying login page
+2026-05-04 00:32:00 INFO  commonUtil.WebDriverActions - Waiting for element to be visible: By.name: username
+2026-05-04 00:32:00 INFO  commonUtil.WebDriverActions - Element is visible: By.name: username
+2026-05-04 00:32:00 INFO  stepDefinition.ui.Loginstep_stepdef_pilot - Login page verified successfully
+2026-05-04 00:32:03 INFO  stepDefinition.ui.Loginstep_stepdef_pilot - Verifying login page
+2026-05-04 00:32:03 INFO  commonUtil.WebDriverActions - Waiting for element to be visible: By.name: username
+2026-05-04 00:32:04 INFO  commonUtil.WebDriverActions - Element is visible: By.name: username
+2026-05-04 00:32:04 INFO  stepDefinition.ui.Loginstep_stepdef_pilot - Login page verified successfully
+2026-05-04 00:32:09 INFO  stepDefinition.ui.Loginstep_stepdef_pilot - Verifying login page
+2026-05-04 00:32:09 INFO  commonUtil.WebDriverActions - Waiting for element to be visible: By.name: username
+2026-05-04 00:32:11 INFO  commonUtil.WebDriverActions - Element is visible: By.name: username
+2026-05-04 00:32:11 INFO  stepDefinition.ui.Loginstep_stepdef_pilot - Login page verified successfully
+2026-05-04 00:33:06 INFO  stepDefinition.ui.Loginstep_stepdef_pilot - Verifying login page
+2026-05-04 00:33:06 INFO  stepDefinition.ui.Loginstep_stepdef_pilot - Verifying login page
+2026-05-04 00:33:06 INFO  commonUtil.WebDriverActions - Waiting for element to be visible: By.name: username
+2026-05-04 00:33:06 INFO  commonUtil.WebDriverActions - Waiting for element to be visible: By.name: username
+2026-05-04 00:33:10 INFO  commonUtil.WebDriverActions - Element is visible: By.name: username
+2026-05-04 00:33:10 INFO  stepDefinition.ui.Loginstep_stepdef_pilot - Login page verified successfully
+2026-05-04 00:33:12 INFO  commonUtil.WebDriverActions - Element is visible: By.name: username
+2026-05-04 00:33:12 INFO  stepDefinition.ui.Loginstep_stepdef_pilot - Login page verified successfully
+2026-05-04 00:33:21 INFO  stepDefinition.ui.Loginstep_stepdef_pilot - Verifying login page
+2026-05-04 00:33:21 INFO  commonUtil.WebDriverActions - Waiting for element to be visible: By.name: username
+2026-05-04 00:33:22 INFO  commonUtil.WebDriverActions - Element is visible: By.name: username
+2026-05-04 00:33:22 INFO  stepDefinition.ui.Loginstep_stepdef_pilot - Login page verified successfully
+2026-05-04 00:55:01 INFO  stepDefinition.ui.Loginstep_stepdef_pilot - Verifying login page
+2026-05-04 00:55:01 INFO  commonUtil.WebDriverActions - Waiting for element to be visible: By.name: username
+2026-05-04 00:55:02 INFO  stepDefinition.ui.Loginstep_stepdef_pilot - Verifying login page
+2026-05-04 00:55:02 INFO  commonUtil.WebDriverActions - Waiting for element to be visible: By.name: username
+2026-05-04 00:55:02 INFO  stepDefinition.ui.Loginstep_stepdef_pilot - Verifying login page
+2026-05-04 00:55:02 INFO  commonUtil.WebDriverActions - Waiting for element to be visible: By.name: username
+2026-05-04 00:55:03 INFO  commonUtil.WebDriverActions - Element is visible: By.name: username
+2026-05-04 00:55:03 INFO  commonUtil.WebDriverActions - Element is visible: By.name: username
+2026-05-04 00:55:03 INFO  stepDefinition.ui.Loginstep_stepdef_pilot - Login page verified successfully
+2026-05-04 00:55:03 INFO  stepDefinition.ui.Loginstep_stepdef_pilot - Login page verified successfully
+2026-05-04 00:55:03 INFO  commonUtil.WebDriverActions - Element is visible: By.name: username
+2026-05-04 00:55:03 INFO  stepDefinition.ui.Loginstep_stepdef_pilot - Login page verified successfully
+2026-05-04 00:55:33 INFO  stepDefinition.ui.Loginstep_stepdef_pilot - Verifying login page
+2026-05-04 00:55:33 INFO  stepDefinition.ui.Loginstep_stepdef_pilot - Verifying login page
+2026-05-04 00:55:33 INFO  commonUtil.WebDriverActions - Waiting for element to be visible: By.name: username
+2026-05-04 00:55:33 INFO  commonUtil.WebDriverActions - Waiting for element to be visible: By.name: username
+2026-05-04 00:55:41 INFO  commonUtil.WebDriverActions - Element is visible: By.name: username
+2026-05-04 00:55:41 INFO  stepDefinition.ui.Loginstep_stepdef_pilot - Login page verified successfully
+2026-05-04 00:55:44 INFO  stepDefinition.ui.Loginstep_stepdef_pilot - Verifying login page
+2026-05-04 00:55:44 INFO  commonUtil.WebDriverActions - Waiting for element to be visible: By.name: username
+2026-05-04 00:55:44 INFO  commonUtil.WebDriverActions - Element is visible: By.name: username
+2026-05-04 00:55:44 INFO  stepDefinition.ui.Loginstep_stepdef_pilot - Login page verified successfully
+2026-05-04 00:55:47 INFO  commonUtil.WebDriverActions - Element is visible: By.name: username
+2026-05-04 00:55:47 INFO  stepDefinition.ui.Loginstep_stepdef_pilot - Login page verified successfully
