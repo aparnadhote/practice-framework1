@@ -16,9 +16,16 @@ pipeline {
    stage('Build & Test') {
        steps {
            script {
-               def threads = params.THREADS?.trim() ? params.THREADS : "2"
-               def browser = params.BROWSER?.trim() ? params.BROWSER : "chrome"
-               def headless = params.HEADLESS?.trim() ? params.HEADLESS : "true"
+               def threads = params.THREADS?.trim()
+               if (!threads) threads = "2"
+
+               def browser = params.BROWSER?.trim()
+               if (!browser) browser = "chrome"
+
+               def headless = params.HEADLESS?.trim()
+               if (!headless) headless = "true"
+
+               echo "Running with: threads=${threads}, browser=${browser}, headless=${headless}"
 
                bat "mvn clean test -Dthreads=${threads} -Dbrowser=${browser} -Dheadless=${headless}"
            }
