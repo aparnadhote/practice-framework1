@@ -9,8 +9,7 @@ public class configReader {
     private static Properties prop = new Properties();
     static{
         try{
-            FileInputStream fis = new FileInputStream(System.getProperty("user.dir")+"/src/main/resources/ui.properties");
-            prop.load(fis);
+            prop.load(configReader.class.getClassLoader().getResourceAsStream("ui.properties"));
         } catch (IOException e) {
             e.printStackTrace();
         }
