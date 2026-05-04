@@ -17,12 +17,18 @@ public class configReader {
     }
 
     public static String get(String key){
-        // First priority: Maven command (-Dbrowser)
         String value = System.getProperty(key);
-        if(value!= null){
+
+        if(value != null && !value.trim().isEmpty()){
             return value;
         }
-        // Second priority: ui.properties
-        return prop.getProperty(key);
+
+        value = prop.getProperty(key);
+
+        if(value == null || value.trim().isEmpty()){
+            throw new RuntimeException("Property missing or empty: " + key);
+        }
+
+        return value;
     }
 }

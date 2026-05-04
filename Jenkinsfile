@@ -13,11 +13,17 @@ pipeline {
 
     stages {
 
-        stage('Build & Test') {
-            steps {
-                bat "mvn clean test -Dthreads=%THREADS% -Dbrowser=%BROWSER% -Dheadless=%HEADLESS%"
-            }
-        }
+   stage('Build & Test') {
+       steps {
+           script {
+               def threads = params.THREADS?.trim() ? params.THREADS : "2"
+               def browser = params.BROWSER?.trim() ? params.BROWSER : "chrome"
+               def headless = params.HEADLESS?.trim() ? params.HEADLESS : "true"
+
+               bat "mvn clean test -Dthreads=${threads} -Dbrowser=${browser} -Dheadless=${headless}"
+           }
+       }
+   }
 
         stage('Archive Reports') {
             steps {
