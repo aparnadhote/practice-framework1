@@ -35,6 +35,7 @@ public class Hooks {
         String url = configReader.get("url");
         Store.getScenario().log("Navigating to URL: " + url);
         System.out.println("Thread ID: " + Thread.currentThread().getId());
+        System.out.println("THREADS PROPERTY: " + System.getProperty("threads"));
 
         driver.get(url);
     }
